@@ -1,5 +1,8 @@
 # new-vanda
 
+## Unit test 参考文档：https://vue-test-utils.vuejs.org/
+## e2e test 还没研究透彻，还没想好怎样引入token进行测试。
+
 ## Project setup
 ```
 yarn install
