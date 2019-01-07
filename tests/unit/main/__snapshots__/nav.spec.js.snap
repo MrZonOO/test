@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavMenu.vue matches snapshot 1`] = `
+<div class="nva_memu_list">
+  <vue-perfect-scrollbar class="overflow_container">
+    <v-list dense="">
+      <v-list dark="" class="transparent">
+        <v-list-tile to="/dashboard">
+          <v-list-tile-avatar>
+            <v-icon dark="">dashboard</v-icon>
+          </v-list-tile-avatar>
+          <v-list-tile-content>
+            <v-list-tile-title class="body-2">
+              Dashboard
+            </v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile to="/queue">
+          <v-list-tile-avatar>
+            <v-icon dark="">people</v-icon>
+          </v-list-tile-avatar>
+          <v-list-tile-content>
+            <v-list-tile-title class="body-2">
+              Client Waiting List
+            </v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+      </v-list>
+    </v-list>
+  </vue-perfect-scrollbar>
+</div>
+`;
