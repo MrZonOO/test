@@ -1,29 +1,26 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <v-app>
+    <v-progress-linear
+      id="app-progress-linear"
+      active
+      indeterminate
+      color="info"
+      height="4"
+    ></v-progress-linear>
     <router-view/>
-  </div>
+  </v-app>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+#app-progress-linear {
+  position: fixed;
+  z-index:10;
+  top:0;
+  margin: 0;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+
+.overflow_container {
+  height: 100%;
+  position: relative;
 }
 </style>
